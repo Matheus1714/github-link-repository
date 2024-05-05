@@ -49,6 +49,44 @@
           "img": "https://github.com/hsuanyi-chou.png"
         }
       ]
+    },
+    {
+      "title": "Recharts",
+      "description": "A composable charting library built on React components",
+      "tags": ["recharts", "charts", "react", "mobile"],
+      "contents": [
+        {
+          "label": "Site",
+          "name": "Recharts Website",
+          "url": "https://recharts.org/en-US/",
+          "img": ""
+        },
+        {
+          "label": "Repositório",
+          "name": "Recharts Repository",
+          "url": "https://github.com/recharts/recharts",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "title": "D3",
+      "description": "The JavaScript library for bespoke data visualization",
+      "tags": ["d3js", "charts", "d3", "mobile", "desktop"],
+      "contents": [
+        {
+          "label": "Site",
+          "name": "D3 Website",
+          "url": "https://d3js.org/",
+          "img": ""
+        },
+        {
+          "label": "Repositórios",
+          "name": "D3 Repository",
+          "url": "https://github.com/d3",
+          "img": ""
+        }
+      ]
     }
   ]
 }
