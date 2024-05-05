@@ -101,14 +101,21 @@ export function App() {
             {projects.map((project) => (
               <Dialog key={project.title}>
                 <DialogTrigger asChild className="w-full">
-                  <Button variant="default" className="hover:bg-secondary">{project.title}</Button>
+                  <a className="bg-secondary hover:ring-2 hover:ring-primary rounded-lg p-4">
+                    <p className="mb-4">{project.title}</p>
+                    <div className="flex flex-wrap gap-3">
+                      {project.tags.map((tag) => (
+                        <Badge key={tag}>{tag}</Badge>
+                      ))}
+                    </div>
+                  </a>
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>{project.title}</DialogTitle>
                     <DialogDescription>{project.description}</DialogDescription>
                   </DialogHeader>
-                  <div className="flex gap-3">
+                  <div className="flex flex-wrap gap-3">
                     {project.tags.map((tag) => (
                       <Badge key={tag}>{tag}</Badge>
                     ))}
