@@ -134,9 +134,9 @@ export function App() {
                           </Avatar>
                           <p className="text-xl">{content.name}</p>
                         </div>
-                        <div className="bg-zinc-800 hover:bg-zinc-600 p-2 rounded-full">
+                        <div className="flex justify-center items-center bg-zinc-800 hover:bg-zinc-600 p-2 rounded-full">
                           <a href={content.url} target="_blanck">
-                            <Link />
+                            <Link className="h-6 w-6" />
                           </a>
                         </div>
                       </div>
