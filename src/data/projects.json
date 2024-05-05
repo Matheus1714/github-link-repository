@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "title": "Xpath Cheatsheet",
+      "description": "Cheats to using Xpaths",
+      "tags": ["xpath", "cheat", "selectors"],
+      "contents": [
+        {
+          "label": "Site",
+          "name": "devhints",
+          "url": "https://devhints.io/xpath",
+          "img": "https://raw.githubusercontent.com/rstacruz/cheatsheets/master/public/assets/favicon.png"
+        },
+        {
+          "label": "Repositório",
+          "name": "cheatsheets",
+          "url": "https://github.com/rstacruz/cheatsheets/blob/master/xpath.md",
+          "img": "https://raw.githubusercontent.com/rstacruz/cheatsheets/master/public/assets/favicon.png"
+        },
+        {
+          "label": "Autor",
+          "name": "rstacruz",
+          "url": "https://github.com/rstacruz",
+          "img": "https://github.com/rstacruz.png"
+        }
+      ]
+    },
+    {
+      "title": "Shadcn/ui Expasions",
+      "description": "Useful additional components collection base on shadcn/ui to help you ship new features faster. Copy and paste into your apps, Accessible, Customizable, Open Source.",
+      "tags": ["shadcnui", "ui", "expasion"],
+      "contents": [
+        {
+          "label": "Site",
+          "name": "shadcn/ui expansions",
+          "url": "https://shadcnui-expansions.typeart.cc/",
+          "img": "https://shadcnui-expansions.typeart.cc/logo/logo-light.svg"
+        },
+        {
+          "label": "Repositório",
+          "name": "shadcn-ui-expansions",
+          "url": "https://github.com/hsuanyi-chou/shadcn-ui-expansions",
+          "img": "https://shadcnui-expansions.typeart.cc/logo/logo-light.svg"
+        },
+        {
+          "label": "Autor",
+          "name": "hsuanyi-chou",
+          "url": "https://github.com/hsuanyi-chou",
+          "img": "https://github.com/hsuanyi-chou.png"
+        }
+      ]
+    }
+  ]
+}
