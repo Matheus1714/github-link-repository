@@ -87,6 +87,25 @@
           "img": ""
         }
       ]
+    },
+    {
+      "title": "Pomofocus",
+      "description": "Pomofocus is a customizable pomodoro timer that works on desktop & mobile browser.",
+      "tags": ["react", "pomodoro", "redux", "hooks"],
+      "contents": [
+        {
+          "label": "Site",
+          "name": "Pomofocus Website",
+          "url": "https://pomofocus.io/",
+          "img": "https://pomofocus.io/images/icon-white2.png"
+        },
+        {
+          "label": "Repositórios",
+          "name": "Pomofocus Repository",
+          "url": "https://github.com/usmansbk/pomofocus",
+          "img": "https://pomofocus.io/images/icon-white2.png"
+        }
+      ]
     }
   ]
 }
